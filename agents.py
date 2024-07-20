@@ -14,7 +14,7 @@ if not os.getenv("ANTHROPIC_API_KEY"):
 
 # Create the Anthropic client
 client = anthropic.Anthropic()
-sonnet = "claude-3-sonnet-20240229"
+sonnet = "claude-3-sonnet-20240720"
 
 def read_csv(file_path):
     data = []
